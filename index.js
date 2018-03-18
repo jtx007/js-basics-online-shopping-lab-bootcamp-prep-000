@@ -21,7 +21,7 @@ function viewCart() {
     return 'Your shopping cart is empty.'
   }
     for (var i = 0; i < cart.length; i++) {
-        return `In your cart, you have lemons at ${cart[itemPrice]}.``
+        return `In your cart, you have lemons at ${cart[itemPrice]}.`
       }
     }
 
