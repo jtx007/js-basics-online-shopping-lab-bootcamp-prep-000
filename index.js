@@ -23,7 +23,7 @@ function viewCart() {
     for (var i = 0; i < cart.length; i++) {
       if (i === 1) {
         return 'In your cart, you have lemons at $83.'
-      }
+      } 
     }
   }
 
