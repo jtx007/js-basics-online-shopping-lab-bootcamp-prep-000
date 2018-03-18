@@ -24,7 +24,7 @@ function viewCart() {
         return 'In your cart, you have lemons at $57.'
       }
     }
-  }
+  
 
 
 function total() {
