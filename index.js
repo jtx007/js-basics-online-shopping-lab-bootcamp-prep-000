@@ -17,8 +17,14 @@ return `${item} has been added to your cart.`
 }
 
 function viewCart() {
-  // write your code here
-}
+  if (cart.length === 0) {
+    console.log('Your shopping cart is empty')
+  }
+    for (var i = 0; i < cart.length; i++) {
+
+    }
+  }
+
 
 function total() {
   // write your code here
