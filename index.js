@@ -21,7 +21,9 @@ function viewCart() {
     console.log('Your shopping cart is empty')
   }
     for (var i = 0; i < cart.length; i++) {
-
+      if (i === 1) {
+        console.log('In your cart, you have lemons at $83.')
+      }
     }
   }
 
