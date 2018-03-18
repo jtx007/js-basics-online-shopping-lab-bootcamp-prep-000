@@ -18,11 +18,11 @@ return `${item} has been added to your cart.`
 
 function viewCart() {
   if (cart.length === 0) {
-    console.log('Your shopping cart is empty')
+    return 'Your shopping cart is empty'
   }
     for (var i = 0; i < cart.length; i++) {
       if (i === 1) {
-        console.log('In your cart, you have lemons at $83.')
+        return 'In your cart, you have lemons at $83.'
       }
     }
   }
